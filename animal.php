@@ -48,7 +48,7 @@ class Animal
 
 # membuat object
 # kirimkan data hewan (array) ke constructor
-$animal = new Animal([]);
+$animal = new Animal("Elang");
 
 echo "Index - Menampilkan seluruh hewan <br>";
 $animal->index();
