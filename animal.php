@@ -19,6 +19,7 @@ class Animal
         # gunakan foreach untuk menampilkan data animals (array)
         foreach($this->animals as $anml){
             echo $anml. "<br>";
+        }
     }
 
     # method store - menambahkan hewan baru
